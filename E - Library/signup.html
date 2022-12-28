@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style1.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  
+   
+ 
+  <div class="container">
+    <div class="box">
+  
+  
+  <div class="row">
+  <div class="col-md-8">
+  <h1 class="contact-heading">Register with Bookly</h1>
+  <form name="contact-form"  method="post" action="/sign_up">
+  <div class="form-group">
+  <label for="Name">Name</label><br>
+  <input type="text" class="form-control" name="name" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="" required>
+  </div>
+  <div class="form-group">
+  <label for="exampleInputEmail1">Email address</label><br>
+  <input type="email" class="form-control" name="username" placeholder="username" required>
+  </div>
+  <div class="form-group">
+  <label for="password">Password</label><br>
+  <input type="password" class="form-control" name="password" placeholder="password" required>
+  </div>
+  <button type="submit" class="btn btn-primary" name="OK" value="Submit">Submit</button>
+  
+  </form>
+  <div class="response_msg"></div>
+  </div>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
+
+

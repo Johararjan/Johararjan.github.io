@@ -1,0 +1,124 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #EDE6DB;
+  color:#1D5C63;
+  line-height: 1.5;
+  min-height: 100vh;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+
+/* Navbar */
+.header{
+  background-color: #417D7A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:10px;
+  padding-bottom: 20px;
+}
+
+.header .main-nav{
+  margin-right: 100px;
+}
+
+.logo a{
+  margin-left: 20px;
+  font-size: 2rem;
+  color:#EDE6DB;
+}
+
+.logo a:hover{
+  color: #A1E3D8;
+}
+.header .main-nav li{
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.header .main-nav li a{
+  color:#EDE6DB;
+  font-size: 1.2rem;
+}
+
+.header .main-nav li a:hover{
+  color: #A1E3D8;
+  font-weight: bold;
+}
+/* Navbar */
+
+
+
+/*  */
+
+.bookstyle{
+  padding-top: 30px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
+
+.bookstyle h1{
+  font-weight: bold;
+}
+.bookHeading{
+  padding-top:10px;
+  padding-bottom:20px;
+}
+
+.books{
+  width:20%;
+}
+
+
+#click{
+  margin-top: 20px;
+  background-color: #1A3C40;
+  color:#EDE6DB;
+  border-style: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding:10px 35px 10px 35px;
+}
+
+#click:hover{
+  background-color: #1D5C63;
+}
+
+
+.bookstyle p{
+  padding-bottom: 10px;
+}
+/* Footer section */
+
+footer{
+  margin-top: 30px;
+  line-height: 1.7;
+}
+
+.footer-section{
+  height:150px;
+  background-color: #417D7A;
+  text-align: center;
+  color: #A1E3D8;
+  line-height: 1.7;
+}
+
+.footer-section .copy{
+  padding-top:30px;
+}
+
+img{
+  border: 2px solid white;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 10px;
+}
